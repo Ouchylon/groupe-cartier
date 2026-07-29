@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ce que je ferais pour Groupe Cartier — Ouchylon Suong</title>
+<meta name="description" content="Un aperçu concret d'initiatives marketing pour Groupe Cartier, préparé par Ouchylon Suong pour sa candidature au poste de responsable marketing.">
+<meta name="robots" content="noindex">
+<style>
+  :root{
+    --bg:#faf8f5; --panel:#ffffff; --ink:#1e1c19; --sub:#4a453d; --muted:#8a8378;
+    --hair:#e7e2da; --accent:#8c7351; --accent2:#6f5a3f; --soft:#f2ede5;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",-apple-system,system-ui,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:920px;margin:0 auto;padding:0 22px;}
+  a{color:var(--accent2);}
+  h1,h2,h3{color:var(--ink);line-height:1.18;letter-spacing:-.4px;}
+  .eyebrow{text-transform:uppercase;letter-spacing:2.6px;font-size:11px;font-weight:700;color:var(--accent);}
+
+  /* Hero */
+  .hero{background:linear-gradient(180deg,#fff 0%,var(--soft) 100%);border-bottom:1px solid var(--hair);}
+  .hero .wrap{padding:54px 22px 46px;}
+  .hero h1{font-size:40px;margin:14px 0 12px;font-weight:600;}
+  .hero p.lead{font-size:17px;color:var(--sub);max-width:660px;margin:0 0 22px;}
+  .who{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:13.5px;color:var(--muted);}
+  .who b{color:var(--sub);}
+  .bar{width:56px;height:3px;background:var(--accent);border-radius:2px;margin:2px 0 0;}
+
+  section{padding:46px 0;border-bottom:1px solid var(--hair);}
+  section h2{font-size:26px;margin:6px 0 6px;font-weight:600;}
+  section .intro{color:var(--sub);max-width:680px;margin:0 0 26px;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .card{background:var(--panel);border:1px solid var(--hair);border-radius:14px;padding:20px 20px;}
+  .card h3{font-size:16.5px;margin:0 0 7px;}
+  .card p{margin:0;color:var(--sub);font-size:14px;}
+  .card .op{margin-top:10px;font-size:13px;color:var(--accent2);font-weight:600;}
+
+  /* Initiatives */
+  .init{background:var(--panel);border:1px solid var(--hair);border-left:4px solid var(--accent);
+    border-radius:12px;padding:20px 22px;margin:14px 0;}
+  .init h3{font-size:18px;margin:0 0 12px;}
+  .init .row{display:grid;grid-template-columns:120px 1fr;gap:6px 16px;font-size:14px;margin:6px 0;}
+  .init .row .k{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;padding-top:2px;}
+  .init .row .v{color:var(--sub);}
+  .init .row .v b{color:var(--ink);}
+
+  /* Blog drafts */
+  .post{background:var(--panel);border:1px solid var(--hair);border-radius:12px;padding:22px 24px;margin:14px 0;}
+  .post .tag{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--accent);font-weight:700;}
+  .post h3{font-size:19px;margin:6px 0 4px;}
+  .post .meta{font-size:12.5px;color:var(--muted);margin:0 0 12px;}
+  .post p{color:var(--sub);font-size:14px;margin:0 0 10px;}
+  .post ul{color:var(--sub);font-size:14px;margin:8px 0 0;padding-left:18px;}
+  .post li{margin:4px 0;}
+
+  /* Outreach */
+  .mail{background:var(--soft);border:1px solid var(--hair);border-radius:10px;padding:16px 18px;font-size:13.5px;color:var(--sub);margin:12px 0;}
+  .mail .sl{color:var(--ink);font-weight:600;margin-bottom:6px;}
+  .steps{counter-reset:s;list-style:none;padding:0;margin:0;}
+  .steps li{position:relative;padding:6px 0 6px 40px;color:var(--sub);font-size:14px;border-bottom:1px solid var(--hair);}
+  .steps li:last-child{border-bottom:none;}
+  .steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:6px;
+    width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;
+    display:flex;align-items:center;justify-content:center;font-size:13px;}
+  .steps li b{color:var(--ink);}
+
+  /* Downloads */
+  .dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+  .dl a{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--hair);
+    border-radius:12px;padding:20px;transition:border-color .15s,transform .15s;}
+  .dl a:hover{border-color:var(--accent);transform:translateY(-2px);}
+  .dl .t{color:var(--ink);font-weight:700;font-size:15.5px;margin-bottom:4px;}
+  .dl .d{color:var(--sub);font-size:13px;}
+  .dl .pill{display:inline-block;margin-top:12px;font-size:12px;font-weight:700;color:var(--accent2);
+    border:1px solid var(--accent);border-radius:20px;padding:4px 12px;}
+
+  footer{padding:34px 0 48px;color:var(--muted);font-size:12.5px;}
+  footer .wrap{max-width:920px;}
+  .note{background:var(--soft);border:1px solid var(--hair);border-radius:10px;padding:14px 16px;color:var(--muted);font-size:12.5px;margin-top:16px;}
+
+  @media (max-width:560px){
+    .hero h1{font-size:31px;} section h2{font-size:22px;}
+    .init .row{grid-template-columns:1fr;gap:2px;}
+    .init .row .k{padding-top:8px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Candidature &middot; Responsable marketing</div>
+    <h1>Ce que je ferais pour Groupe Cartier</h1>
+    <div class="bar"></div>
+    <p class="lead" style="margin-top:18px;">Un aperçu concret, préparé avant même notre première rencontre. Pas une promesse : des initiatives, des exemples de contenu prêts à publier et des outils à télécharger. Comme si j'avais déjà le poste.</p>
+    <div class="who">
+      <span><b>Ouchylon Suong</b></span>
+      <span>&middot;</span>
+      <span>contact@ouchylon.com</span>
+      <span>&middot;</span>
+      <span>819-919-6974</span>
+      <span>&middot;</span>
+      <span><a href="https://ouchylon.com">ouchylon.com</a></span>
+    </div>
+  </div>
+</header>
+
+<section id="constat">
+  <div class="wrap">
+    <div class="eyebrow">Le constat</div>
+    <h2>Ce que j'ai vu, et l'occasion derrière chaque point</h2>
+    <p class="intro">J'ai passé du temps sur vos plateformes avant de vous écrire. Rien de tout ça n'est un reproche : c'est une firme qui livre beaucoup et se montre peu. Voilà, justement, le terrain de jeu.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Une autorité qui se voit trop peu</h3>
+        <p>Vingt-huit ans, des prix aux Grands Prix du Design et aux Domus, un partenariat Miralis. Mais absente des recherches à forte intention.</p>
+        <div class="op">→ Convertir le prestige en visibilité.</div>
+      </div>
+      <div class="card">
+        <h3>Peu d'avis pour tout ce que vous livrez</h3>
+        <p>Vos avis en ligne (Google, Houzz) sont rares en comparaison du volume de projets réalisés.</p>
+        <div class="op">→ Une routine d'avis = preuve sociale qui vend.</div>
+      </div>
+      <div class="card">
+        <h3>Un beau site, sans moteur de contenu</h3>
+        <p>Le site est propre, mais il n'a pas de blogue et son référencement reste à travailler.</p>
+        <div class="op">→ Du contenu qui vous fait trouver.</div>
+      </div>
+      <div class="card">
+        <h3>Des canaux inégaux</h3>
+        <p>Instagram est vivant, LinkedIn est endormi, et le lien TikTok du site ne mène nulle part.</p>
+        <div class="op">→ Cohérence, et LinkedIn pour le commercial.</div>
+      </div>
+      <div class="card">
+        <h3>Invisible pour les IA</h3>
+        <p>Quand on demande à ChatGPT ou Perplexity un designer de cuisine haut de gamme à Montréal, votre nom ne sort pas.</p>
+        <div class="op">→ Devenir la réponse citée, avant vos concurrents.</div>
+      </div>
+      <div class="card">
+        <h3>Un cycle de vente long à nourrir</h3>
+        <p>Une rénovation à six chiffres se décide sur des mois. Entre le premier clic et la signature, il n'y a presque rien pour entretenir la relation.</p>
+        <div class="op">→ Infolettre et suivi qui gardent le lien.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="initiatives">
+  <div class="wrap">
+    <div class="eyebrow">Les initiatives</div>
+    <h2>Cinq chantiers, avec la méthode et le résultat visé</h2>
+    <p class="intro">Chaque initiative suit la même logique : ce que j'observe, ce que je fais, pourquoi, et le résultat attendu. Rien d'abstrait.</p>
+
+    <div class="init">
+      <h3>1. La machine à preuve sociale</h3>
+      <div class="row"><div class="k">Je vois</div><div class="v">Des avis rares malgré des centaines de projets livrés, et une fiche Google à optimiser.</div></div>
+      <div class="row"><div class="k">Je fais</div><div class="v">Une routine simple : une demande d'avis (Google + Houzz) à chaque projet livré, avec un gabarit et un suivi.</div></div>
+      <div class="row"><div class="k">Pourquoi</div><div class="v">Deux tiers des clients en rénovation choisissent sur la réputation et le bouche-à-oreille.</div></div>
+      <div class="row"><div class="k">Résultat</div><div class="v"><b>Des dizaines d'avis en un an</b>, et une longueur d'avance au moment où le client compare.</div></div>
+    </div>
+
+    <div class="init">
+      <h3>2. Chaque prix devient un actif</h3>
+      <div class="row"><div class="k">Je vois</div><div class="v">Vos distinctions dorment sur une page « à propos », sans écho.</div></div>
+      <div class="row"><div class="k">Je fais</div><div class="v">Chaque projet primé devient une étude de cas, un article, un communiqué et une série de publications.</div></div>
+      <div class="row"><div class="k">Pourquoi</div><div class="v">Vous avez déjà l'autorité; il manque à la mettre là où les gens regardent.</div></div>
+      <div class="row"><div class="k">Résultat</div><div class="v"><b>Du contenu qui vous fait remonter</b> dans Google et dans les réponses d'IA.</div></div>
+    </div>
+
+    <div class="init">
+      <h3>3. Le moteur de contenu (SEO + IA)</h3>
+      <div class="row"><div class="k">Je vois</div><div class="v">« Designer de cuisine haut de gamme à Montréal » mène encore à vos concurrents.</div></div>
+      <div class="row"><div class="k">Je fais</div><div class="v">Un blogue régulier (conseils, coûts, tendances, études de cas) optimisé pour Google et pour les recherches assistées par IA, plus un nettoyage technique du site.</div></div>
+      <div class="row"><div class="k">Pourquoi</div><div class="v">Le référencement organique convertit mieux que le trafic social et ne se loue pas : il s'accumule.</div></div>
+      <div class="row"><div class="k">Résultat</div><div class="v"><b>Être trouvé au bon moment</b>, sans payer pour chaque visite.</div></div>
+    </div>
+
+    <div class="init">
+      <h3>4. LinkedIn pour le commercial et le recrutement</h3>
+      <div class="row"><div class="k">Je vois</div><div class="v">Un compte LinkedIn quasi endormi, alors que vous visez aussi des projets commerciaux.</div></div>
+      <div class="row"><div class="k">Je fais</div><div class="v">Une présence régulière : projets, coulisses, prix, offres d'emploi, et approche des donneurs d'ordre.</div></div>
+      <div class="row"><div class="k">Pourquoi</div><div class="v">LinkedIn est le canal des décideurs et des talents design et construction.</div></div>
+      <div class="row"><div class="k">Résultat</div><div class="v"><b>Des occasions commerciales</b> et un bassin de candidats pour vos postes.</div></div>
+    </div>
+
+    <div class="init">
+      <h3>5. Le démarchage qui fait sonner le téléphone</h3>
+      <div class="row"><div class="k">Je vois</div><div class="v">Une croissance surtout portée par le bouche-à-oreille, sans système pour la provoquer.</div></div>
+      <div class="row"><div class="k">Je fais</div><div class="v">Un démarchage structuré : partenariats avec architectes et courtiers, co-marketing Miralis, programme de références (voir la méthodologie plus bas).</div></div>
+      <div class="row"><div class="k">Pourquoi</div><div class="v">Le développement des affaires, ce n'est pas attendre le téléphone : c'est bâtir les raisons qu'il sonne.</div></div>
+      <div class="row"><div class="k">Résultat</div><div class="v"><b>Un flux de prospects qualifiés</b> qui ne dépend pas de la chance.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="blogues">
+  <div class="wrap">
+    <div class="eyebrow">Exemples de contenu</div>
+    <h2>Trois articles de blogue, prêts à publier</h2>
+    <p class="intro">Pas des titres : de vrais brouillons. Voici le genre de contenu que je produirais dès la première semaine, calibré pour ce que vos clients tapent réellement dans Google.</p>
+
+    <article class="post">
+      <div class="tag">Article &middot; intention « coût »</div>
+      <h3>Combien coûte une rénovation haut de gamme à Montréal en 2026 ?</h3>
+      <p class="meta">Cible : propriétaires en phase de recherche &middot; mot-clé à forte intention &middot; ~1 200 mots</p>
+      <p>C'est la première question de tout le monde, et presque personne n'y répond honnêtement en ligne. Une rénovation complète et haut de gamme d'une cuisine ou d'un espace de vie à Montréal se situe généralement dans une fourchette large, parce que trois facteurs font tout : l'ampleur des travaux structuraux, le niveau de finition et de matériaux, et la complexité de coordination des corps de métier. En 2026, la main-d'œuvre représente environ 60 % de la facture, et les coûts de construction ont bondi de plus de moitié depuis 2019.</p>
+      <p>L'article expliquerait, sans gêne, ce qui fait monter ou descendre un budget, pourquoi un devis « trop beau » cache souvent des surprises, et ce que couvre réellement un service clé en main. Il se terminerait par une invitation calme à un appel découverte.</p>
+      <ul>
+        <li>Ce qui compose vraiment une facture de rénovation (main-d'œuvre, matériaux, gestion)</li>
+        <li>Trois fourchettes selon l'ampleur, avec des exemples concrets</li>
+        <li>Pourquoi le clé en main protège le budget plutôt que de le gonfler</li>
+        <li>Les cinq questions à poser avant de signer</li>
+      </ul>
+    </article>
+
+    <article class="post">
+      <div class="tag">Article &middot; positionnement</div>
+      <h3>Rénovation clé en main : les 5 étapes, et pourquoi ça change tout</h3>
+      <p class="meta">Cible : clients hésitants entre plusieurs prestataires &middot; ~900 mots</p>
+      <p>Beaucoup de gens redoutent la rénovation parce qu'ils imaginent devoir jongler entre un designer, un entrepreneur, un cuisiniste et cinq sous-traitants. Cet article raconterait votre plus grande force : un seul point de contact, de la première esquisse à la dernière poignée de porte. Appel découverte, analyse, conception 3D, réalisation, suivi. Chaque étape expliquée du point de vue du client, avec ce qu'il vit et ce qu'il n'a justement pas à gérer.</p>
+      <p>C'est un article qui ne vend pas un prix, mais une tranquillité d'esprit. Exactement ce que cherche quelqu'un qui confie sa maison.</p>
+      <ul>
+        <li>Le vrai coût caché de coordonner soi-même une rénovation</li>
+        <li>Les 5 étapes, côté client</li>
+        <li>Ce qu'un designer et un ébéniste sous le même toit permettent</li>
+      </ul>
+    </article>
+
+    <article class="post">
+      <div class="tag">Article &middot; haut de tunnel</div>
+      <h3>5 signes qu'il est temps de repenser votre cuisine</h3>
+      <p class="meta">Cible : audience large, partageable sur les réseaux &middot; ~700 mots</p>
+      <p>Un article léger, visuel, pensé pour être partagé et pour attirer ceux qui n'ont pas encore décidé de rénover. Chaque « signe » est une accroche (le manque de rangement, l'îlot qui ne suit plus la vie de famille, les matériaux qui datent) et une porte d'entrée vers vos réalisations. Idéal pour décliner en carrousel Instagram et en publication LinkedIn.</p>
+      <ul>
+        <li>Cinq signes concrets, illustrés par vos projets primés</li>
+        <li>Déclinable en carrousel Instagram et en reel avant/après</li>
+        <li>Termine sur une inspiration, pas sur une pression</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="demarchage">
+  <div class="wrap">
+    <div class="eyebrow">Méthodologie</div>
+    <h2>Le démarchage, comme si je prenais déjà le rôle</h2>
+    <p class="intro">Trouver des clients haut de gamme ne se fait pas au hasard. Voici la méthode que je mettrais en place, cible par cible.</p>
+
+    <div class="grid" style="margin-bottom:22px;">
+      <div class="card"><h3>Architectes &amp; designers</h3><p>Référents naturels de projets clé en main. Objectif : devenir leur entrepreneur de confiance.</p></div>
+      <div class="card"><h3>Courtiers immobiliers haut de gamme</h3><p>Outremont, Ville Mont-Royal, Westmount, Ahuntsic. Ils croisent des acheteurs qui vont rénover.</p></div>
+      <div class="card"><h3>Anciens clients</h3><p>La source la moins chère et la plus qualifiée : les références. Un programme structuré, pas un hasard.</p></div>
+      <div class="card"><h3>Co-marketing Miralis</h3><p>Votre partenariat privilège devient un argument et un canal de visibilité partagé.</p></div>
+    </div>
+
+    <h3 style="font-size:17px;margin:22px 0 8px;">La séquence, en trois touches</h3>
+    <ul class="steps">
+      <li><b>Touche 1 — la valeur.</b> Un courriel personnalisé qui apporte quelque chose d'utile (une réalisation pertinente, un aperçu de tendance), sans rien demander.</li>
+      <li><b>Touche 2 — la preuve.</b> Quelques jours plus tard, une étude de cas ou un projet primé qui parle à leur clientèle.</li>
+      <li><b>Touche 3 — l'invitation.</b> Une proposition simple : un café, une visite du showroom, ou un partenariat de références.</li>
+    </ul>
+
+    <h3 style="font-size:17px;margin:26px 0 8px;">Exemple de courriel de démarchage (courtiers)</h3>
+    <div class="mail">
+      <div class="sl">Objet : Pour vos acheteurs qui rêvent déjà de rénover</div>
+      Bonjour [Prénom],<br><br>
+      Je remarque que vous accompagnez des acheteurs dans [quartier], souvent dans des propriétés qui méritent une seconde vie. Chez Groupe Cartier, on gère la rénovation de A à Z, du design au chantier, sous un seul toit. Ça enlève un poids à vos clients, et ça les aide à se projeter dans une propriété.<br><br>
+      Je vous envoie deux de nos réalisations récentes dans le secteur. Si jamais un de vos clients cherche ce genre d'accompagnement, on est faciles à recommander.<br><br>
+      Au plaisir,<br>
+      [Nom] &middot; Groupe Cartier
+    </div>
+
+    <h3 style="font-size:17px;margin:26px 0 8px;">Programme de références</h3>
+    <p style="color:var(--sub);font-size:14px;margin:0;">Un incitatif clair pour les clients satisfaits et les partenaires (architectes, courtiers), suivi dans le CRM. Les incitatifs augmentent le volume de références d'environ 40 %, et une référence coûte cinq fois moins cher qu'un client acquis en publicité.</p>
+  </div>
+</section>
+
+<section id="funnel">
+  <div class="wrap">
+    <div class="eyebrow">Un funnel prêt à lancer</div>
+    <h2>De la publicité jusqu'au formulaire, monté pour vous</h2>
+    <p class="intro">Voici à quoi ressemblerait une première campagne de génération de leads : trois créatifs bâtis à partir de vos réalisations, un ciblage précis, et une page de destination qui transforme le clic en demande de consultation.</p>
+
+    <h3 style="font-size:17px;margin:8px 0 12px;">1. Les créatifs publicitaires</h3>
+    <div class="grid">
+      <div style="background:#fff;border:1px solid var(--hair);border-radius:12px;overflow:hidden;">
+        <div style="padding:11px 13px 6px;display:flex;align-items:center;gap:8px;">
+          <div style="width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;">GC</div>
+          <div><div style="font-weight:700;font-size:12.5px;color:var(--ink);">Groupe Cartier</div><div style="font-size:10.5px;color:var(--muted);">Sponsorisé</div></div>
+        </div>
+        <div style="padding:0 13px 9px;font-size:12.5px;color:var(--sub);">Votre cuisine mérite mieux qu'un simple rafraîchissement. Design, ébénisterie et chantier, sous un seul toit, depuis 1998.</div>
+        <div style="height:140px;background:linear-gradient(135deg,#e9e1d5,#d3c4ae);display:flex;align-items:center;justify-content:center;color:#8a7a63;font-size:11.5px;font-style:italic;">Votre photo de réalisation</div>
+        <div style="padding:11px 13px;display:flex;justify-content:space-between;align-items:center;background:var(--soft);gap:8px;">
+          <div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">grpcartier.com</div><div style="font-weight:700;font-size:13px;color:var(--ink);">Rénovation clé en main</div></div>
+          <div style="background:var(--accent);color:#fff;font-weight:700;font-size:11.5px;padding:7px 12px;border-radius:6px;white-space:nowrap;">En savoir plus</div>
+        </div>
+      </div>
+
+      <div style="background:#fff;border:1px solid var(--hair);border-radius:12px;overflow:hidden;">
+        <div style="padding:11px 13px 6px;display:flex;align-items:center;gap:8px;">
+          <div style="width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;">GC</div>
+          <div><div style="font-weight:700;font-size:12.5px;color:var(--ink);">Groupe Cartier</div><div style="font-size:10.5px;color:var(--muted);">Sponsorisé</div></div>
+        </div>
+        <div style="padding:0 13px 9px;font-size:12.5px;color:var(--sub);">Vous songez à rénover ? Réservez un appel découverte gratuit avec notre équipe de designers primés.</div>
+        <div style="height:140px;background:linear-gradient(135deg,#e6ddcf,#cbb8a0);display:flex;align-items:center;justify-content:center;color:#8a7a63;font-size:11.5px;font-style:italic;">Votre projet avant / après</div>
+        <div style="padding:11px 13px;display:flex;justify-content:space-between;align-items:center;background:var(--soft);gap:8px;">
+          <div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">grpcartier.com</div><div style="font-weight:700;font-size:13px;color:var(--ink);">Un projet, un interlocuteur</div></div>
+          <div style="background:var(--accent);color:#fff;font-weight:700;font-size:11.5px;padding:7px 12px;border-radius:6px;white-space:nowrap;">Réserver</div>
+        </div>
+      </div>
+
+      <div style="background:#fff;border:1px solid var(--hair);border-radius:12px;overflow:hidden;">
+        <div style="padding:11px 13px 6px;display:flex;align-items:center;gap:8px;">
+          <div style="width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;">GC</div>
+          <div><div style="font-weight:700;font-size:12.5px;color:var(--ink);">Groupe Cartier</div><div style="font-size:10.5px;color:var(--muted);">Sponsorisé</div></div>
+        </div>
+        <div style="padding:0 13px 9px;font-size:12.5px;color:var(--sub);">Primés aux Grands Prix du Design. Partenaire privilège Miralis. Voyez ce qu'on peut faire de votre espace.</div>
+        <div style="height:140px;background:linear-gradient(135deg,#eae2d4,#d8cbb5);display:flex;align-items:center;justify-content:center;color:#8a7a63;font-size:11.5px;font-style:italic;">Votre projet primé</div>
+        <div style="padding:11px 13px;display:flex;justify-content:space-between;align-items:center;background:var(--soft);gap:8px;">
+          <div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;">grpcartier.com</div><div style="font-weight:700;font-size:13px;color:var(--ink);">28 ans d'exception</div></div>
+          <div style="background:var(--accent);color:#fff;font-weight:700;font-size:11.5px;padding:7px 12px;border-radius:6px;white-space:nowrap;">Voir la galerie</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-size:17px;margin:26px 0 10px;">2. Le ciblage (ad set)</h3>
+    <div class="init" style="border-left-color:var(--accent);">
+      <div class="row"><div class="k">Objectif</div><div class="v">Génération de prospects (formulaire) pour la conversion, et notoriété pour le haut du tunnel.</div></div>
+      <div class="row"><div class="k">Audience</div><div class="v">Propriétaires de 35 à 65 ans, revenu élevé, Grand Montréal. Intérêts : rénovation, design d'intérieur, Houzz, immobilier haut de gamme.</div></div>
+      <div class="row"><div class="k">Géociblage</div><div class="v">Outremont, Ville Mont-Royal, Westmount, Ahuntsic-Cartierville, Rosemont, et un rayon autour du showroom.</div></div>
+      <div class="row"><div class="k">Placements</div><div class="v">Instagram (fil, reels, stories) et Facebook (fil), en test A/B des trois créatifs.</div></div>
+      <div class="row"><div class="k">Reciblage</div><div class="v">Visiteurs du site et personnes ayant interagi avec les réseaux dans les 30 derniers jours.</div></div>
+      <div class="row"><div class="k">Budget test</div><div class="v">20 à 40 $ par jour au départ, puis on met le budget sur le créatif et l'audience qui rapportent le meilleur coût par lead.</div></div>
+      <div class="row"><div class="k">Mesure</div><div class="v">Coût par lead, taux de complétion du formulaire, et qualité (budget de projet déclaré).</div></div>
+    </div>
+
+    <h3 style="font-size:17px;margin:26px 0 10px;">3. La page de destination</h3>
+    <p style="color:var(--sub);font-size:14px;margin:0 0 14px;">Le clic n'atterrit pas sur la page d'accueil : il arrive sur une page pensée pour une seule chose, obtenir une demande de consultation. Je l'ai construite, vous pouvez la voir en vrai.</p>
+    <div class="dl" style="grid-template-columns:1fr;">
+      <a href="./funnel-cuisine.html" target="_blank" rel="noopener">
+        <div class="t">Voir la landing page du funnel &nbsp;&rarr;</div>
+        <div class="d">Une page de capture complète avec formulaire de consultation, exemple concret et fonctionnel.</div>
+        <span class="pill">Ouvrir la page</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="telechargements">
+  <div class="wrap">
+    <div class="eyebrow">À télécharger</div>
+    <h2>Des outils, pas juste des idées</h2>
+    <p class="intro">Deux documents prêts à l'emploi, que votre équipe pourrait utiliser dès demain.</p>
+    <div class="dl">
+      <a href="./calendrier-contenu-30-jours.pdf">
+        <div class="t">Calendrier de contenu — 30 jours</div>
+        <div class="d">Un mois de publications planifiées (Instagram, Facebook, LinkedIn, blogue), avec l'angle de chaque contenu.</div>
+        <span class="pill">Télécharger le PDF</span>
+      </a>
+      <a href="./trames-demarchage.pdf">
+        <div class="t">Trames de démarchage &amp; courriels</div>
+        <div class="d">Les segments cibles, la séquence en trois touches et des modèles de courriels à personnaliser.</div>
+        <span class="pill">Télécharger le PDF</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div style="color:var(--ink);font-weight:600;font-size:15px;">On en parle ?</div>
+    <p style="margin:6px 0 0;">Ouchylon Suong &middot; <a href="mailto:contact@ouchylon.com">contact@ouchylon.com</a> &middot; 819-919-6974 &middot; <a href="https://ouchylon.com">ouchylon.com</a></p>
+    <div class="note">Document personnel préparé par Ouchylon Suong à l'appui de sa candidature au poste de responsable marketing chez Groupe Cartier. Les constats reposent sur de l'information publique et sont présentés à titre d'illustration. Sans affiliation officielle avec Groupe Cartier.</div>
+  </div>
+</footer>
+
+</body>
+</html>
