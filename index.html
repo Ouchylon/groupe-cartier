@@ -22,8 +22,8 @@
   .wrap{max-width:1000px;margin:0 auto;padding:0 24px;}
   a{color:var(--ink);}
   h1,h2,h3,h4{color:var(--ink);line-height:1.16;letter-spacing:-.3px;font-weight:600;}
-  .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:11px;font-weight:600;color:var(--grey);}
-  .bar{width:48px;height:2px;background:var(--ink);margin:14px 0 0;}
+  .eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:11.5px;font-weight:700;color:var(--charcoal);}
+  .bar{width:48px;height:3px;background:var(--ink);margin:14px 0 0;}
   img{max-width:100%;display:block;}
 
   /* Hero (dark) */
@@ -33,8 +33,8 @@
   .htop img{height:30px;}
   .htop .tag{text-transform:uppercase;letter-spacing:2.5px;font-size:10.5px;color:#c9c4bd;}
   .hbody{padding:44px 0 46px;}
-  .hero h1{color:#fff;font-size:44px;font-weight:600;margin:0 0 16px;max-width:15ch;}
-  .hero p.lead{font-size:17px;color:#d9d4cd;max-width:640px;margin:0 0 22px;font-weight:300;}
+  .hero h1{color:#fff;font-size:49px;font-weight:700;margin:0 0 16px;max-width:15ch;letter-spacing:-.6px;}
+  .hero p.lead{font-size:17.5px;color:#e2ddd5;max-width:660px;margin:0 0 22px;font-weight:400;line-height:1.55;}
   .who{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:#b3ada4;}
   .who b{color:#e8e3db;font-weight:500;}
   .heroimg img{width:100%;height:360px;object-fit:cover;}
@@ -45,21 +45,25 @@
   .badges .lbl{text-transform:uppercase;letter-spacing:2.5px;font-size:10.5px;color:var(--grey);}
   .badges img{height:46px;opacity:.85;}
 
-  section{padding:52px 0;border-bottom:1px solid var(--line);}
-  section h2{font-size:28px;margin:6px 0 8px;font-weight:600;}
-  section .intro{color:#4a4843;max-width:720px;margin:0 0 26px;font-size:15px;font-weight:300;}
+  section{padding:60px 0;border-bottom:1px solid var(--line);}
+  section:nth-of-type(even){background:var(--greige);}
+  #candidature{background:var(--charcoal);}
+  #candidature h2,#candidature .eyebrow{color:#fff;}
+  #candidature .intro{color:#d9d4cd;}
+  section h2{font-size:31px;margin:6px 0 10px;font-weight:600;}
+  section .intro{color:#39362f;max-width:730px;margin:0 0 26px;font-size:15.5px;font-weight:400;}
 
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
   .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:20px;}
   .card h3{font-size:16px;margin:0 0 6px;font-weight:600;}
-  .card p{margin:0;color:#55524d;font-size:14px;font-weight:300;}
+  .card p{margin:0;color:#55524d;font-size:14px;font-weight:400;}
   .card .op{margin-top:10px;font-size:13px;color:var(--ink);font-weight:600;}
 
   .truth{background:var(--charcoal);color:#ece7df;border-radius:6px;padding:30px;margin:0 0 26px;}
   .truth h3{color:#fff;font-size:20px;margin:0 0 12px;}
   .truth ul{margin:0;padding:0;list-style:none;}
-  .truth li{position:relative;padding:9px 0 9px 24px;border-bottom:1px solid rgba(255,255,255,.12);font-size:15px;font-weight:300;}
+  .truth li{position:relative;padding:9px 0 9px 24px;border-bottom:1px solid rgba(255,255,255,.12);font-size:15px;font-weight:400;}
   .truth li:last-child{border-bottom:none;}
   .truth li::before{content:"";position:absolute;left:0;top:16px;width:7px;height:2px;background:#fff;}
   .truth li b{color:#fff;font-weight:600;}
@@ -69,15 +73,15 @@
   .block h3{font-size:18px;margin:0 0 12px;}
   .row{display:grid;grid-template-columns:130px 1fr;gap:6px 16px;font-size:14px;margin:7px 0;}
   .row .k{color:var(--grey);font-weight:600;text-transform:uppercase;letter-spacing:1px;font-size:10.5px;padding-top:2px;}
-  .row .v{color:#4a4843;font-weight:300;}
+  .row .v{color:#4a4843;font-weight:400;}
   .row .v b{color:var(--ink);font-weight:600;}
 
   .atom-src{background:var(--ink);color:#fff;border-radius:4px;padding:16px 20px;text-align:center;font-weight:600;font-size:16px;}
-  .atom-src span{display:block;font-weight:300;font-size:13px;opacity:.85;margin-top:4px;}
+  .atom-src span{display:block;font-weight:400;font-size:13px;opacity:.85;margin-top:4px;}
   .atom-mid{text-align:center;color:var(--grey);font-size:11px;text-transform:uppercase;letter-spacing:3px;margin:12px 0;}
   .plat{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:16px 18px;border-top:2px solid var(--ink);}
   .plat h4{margin:0 0 5px;font-size:14.5px;font-weight:600;}
-  .plat p{margin:0;font-size:13px;color:#55524d;font-weight:300;}
+  .plat p{margin:0;font-size:13px;color:#55524d;font-weight:400;}
 
   .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;}
   .gitem{position:relative;border-radius:4px;overflow:hidden;border:1px solid var(--line);}
@@ -88,43 +92,43 @@
   .post{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:20px 22px;margin:12px 0;}
   .post .tag{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--grey);font-weight:600;}
   .post h3{font-size:18px;margin:6px 0 3px;}
-  .post .meta{font-size:12px;color:var(--grey);margin:0 0 10px;font-weight:300;}
-  .post p{color:#55524d;font-size:13.5px;margin:0 0 9px;font-weight:300;}
-  .post ul{color:#55524d;font-size:13.5px;margin:6px 0 0;padding-left:18px;font-weight:300;}
+  .post .meta{font-size:12px;color:var(--grey);margin:0 0 10px;font-weight:400;}
+  .post p{color:#55524d;font-size:13.5px;margin:0 0 9px;font-weight:400;}
+  .post ul{color:#55524d;font-size:13.5px;margin:6px 0 0;padding-left:18px;font-weight:400;}
 
   .steps{counter-reset:s;list-style:none;padding:0;margin:0;}
-  .steps li{position:relative;padding:9px 0 9px 42px;color:#4a4843;font-size:14.5px;border-bottom:1px solid var(--line);font-weight:300;}
+  .steps li{position:relative;padding:9px 0 9px 42px;color:#4a4843;font-size:14.5px;border-bottom:1px solid var(--line);font-weight:400;}
   .steps li:last-child{border-bottom:none;}
   .steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:8px;
     width:26px;height:26px;border-radius:50%;background:var(--ink);color:#fff;font-weight:600;
     display:flex;align-items:center;justify-content:center;font-size:12.5px;}
   .steps li b{color:var(--ink);font-weight:600;}
   .qlist{list-style:none;padding:0;margin:0;}
-  .qlist li{position:relative;padding:9px 0 9px 24px;border-bottom:1px solid var(--line);color:#4a4843;font-size:14.5px;font-weight:300;}
+  .qlist li{position:relative;padding:9px 0 9px 24px;border-bottom:1px solid var(--line);color:#4a4843;font-size:14.5px;font-weight:400;}
   .qlist li:last-child{border-bottom:none;}
   .qlist li::before{content:"—";position:absolute;left:0;top:9px;color:var(--grey);}
 
-  .mail{background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:16px 18px;font-size:13.5px;color:#55524d;margin:12px 0;font-weight:300;}
+  .mail{background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:16px 18px;font-size:13.5px;color:#55524d;margin:12px 0;font-weight:400;}
   .mail .sl{color:var(--ink);font-weight:600;margin-bottom:6px;}
 
   .dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
   .dl a{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:20px;transition:border-color .15s;}
   .dl a:hover{border-color:var(--ink);}
   .dl .t{color:var(--ink);font-weight:600;font-size:15px;margin-bottom:4px;}
-  .dl .d{color:#55524d;font-size:13px;font-weight:300;}
+  .dl .d{color:#55524d;font-size:13px;font-weight:400;}
   .dl .pill{display:inline-block;margin-top:12px;font-size:12px;font-weight:600;color:var(--ink);border:1px solid var(--ink);border-radius:2px;padding:4px 12px;}
 
   .adcard{background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;}
   .adcard .h{padding:10px 12px 6px;display:flex;align-items:center;gap:8px;}
   .adcard .h .lg{width:26px;height:26px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:10px;}
-  .adcard .pt{padding:0 12px 8px;font-size:12px;color:#55524d;font-weight:300;}
+  .adcard .pt{padding:0 12px 8px;font-size:12px;color:#55524d;font-weight:400;}
   .adcard img{width:100%;height:150px;object-fit:cover;}
   .adcard .b{padding:9px 12px;display:flex;justify-content:space-between;align-items:center;background:var(--soft);gap:8px;}
   .adcard .b .hl{font-weight:600;font-size:12px;}
   .adcard .b .cta{background:var(--ink);color:#fff;font-weight:600;font-size:11px;padding:6px 11px;border-radius:2px;white-space:nowrap;}
 
   footer{padding:36px 0 50px;color:var(--grey);font-size:12.5px;}
-  .fnote{background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:14px 16px;color:var(--grey);font-size:12px;margin-top:16px;font-weight:300;}
+  .fnote{background:var(--soft);border:1px solid var(--line);border-radius:4px;padding:14px 16px;color:var(--grey);font-size:12px;margin-top:16px;font-weight:400;}
 
   @media (max-width:560px){
     .hero h1{font-size:32px;} section h2{font-size:23px;} .heroimg img{height:230px;}
@@ -316,6 +320,41 @@
   </div>
 </section>
 
+<section id="inspirations">
+  <div class="wrap">
+    <div class="eyebrow">Inspirations</div>
+    <h2>Ce qui marche ailleurs dans le monde</h2>
+    <p class="intro">Des firmes comme la vôtre, aux États-Unis et en Europe, ont bâti une notoriété énorme avec du contenu. Rien à inventer : il y a un modèle à suivre.</p>
+
+    <div class="block">
+      <h3>deVOL Kitchens — Angleterre</h3>
+      <div class="row"><div class="k">Ce qui marche</div><div class="v">Cuisines sur mesure haut de gamme. Près de 900 000 abonnés sur Instagram, un flux constant de photos et de coulisses superbes. Ils sont devenus LA référence d'inspiration cuisine sur Pinterest et Instagram.</div></div>
+      <div class="row"><div class="k">À emprunter</div><div class="v">Une esthétique constante et une vraie voix de marque. Publier beaucoup, toujours beau. Devenir l'inspiration que les gens sauvegardent.</div></div>
+      <div class="row"><div class="k">À voir</div><div class="v">instagram.com/devolkitchens et leur chaîne YouTube « deVOL Kitchens ».</div></div>
+    </div>
+
+    <div class="block">
+      <h3>Matt Risinger / The Build Show — États-Unis</h3>
+      <div class="row"><div class="k">Ce qui marche</div><div class="v">Un constructeur d'Austin qui explique la science du bâtiment et l'artisanat sur YouTube. Sa firme est passée de zéro à 20 millions de dollars par an en une décennie, portée par la chaîne.</div></div>
+      <div class="row"><div class="k">Le secret</div><div class="v">Même une vidéo à 300 vues peut être regardée par un architecte ou un client avant de le rencontrer. Ils arrivent en ayant déjà confiance en lui.</div></div>
+      <div class="row"><div class="k">À emprunter</div><div class="v">Du contenu éducatif régulier : « comment on fait », « combien ça coûte », des visites de chantier. L'autorité se bâtit, une vidéo à la fois.</div></div>
+      <div class="row"><div class="k">À voir</div><div class="v">youtube.com/@buildshow</div></div>
+    </div>
+
+    <div class="block">
+      <h3>Studio McGee — États-Unis</h3>
+      <div class="row"><div class="k">Ce qui marche</div><div class="v">Une firme de design devenue une marque média : contenu éducatif, avant/après, une esthétique reconnaissable, jusqu'à une émission Netflix et une ligne de produits.</div></div>
+      <div class="row"><div class="k">À emprunter</div><div class="v">Des articles qui enseignent (« comment rendre une cuisine plus design »), déclinés partout. Le contenu qui aide finit toujours par vendre.</div></div>
+      <div class="row"><div class="k">À voir</div><div class="v">studio-mcgee.com et l'émission Netflix « Dream Home Makeover ».</div></div>
+    </div>
+
+    <div class="block" style="background:var(--soft);">
+      <h3>Le dénominateur commun : l'avant/après</h3>
+      <p style="color:#39362f;font-size:14.5px;font-weight:400;margin:0;">73 % des clients disent que les études de cas sont le contenu le plus convaincant. Un remodeleur a généré 5 000 clics et 53 demandes avec de simples publicités avant/après sur Facebook. Vous avez des centaines de transformations : c'est votre plus grande mine d'or, encore inexploitée.</p>
+    </div>
+  </div>
+</section>
+
 <section id="preuve">
   <div class="wrap">
     <div class="eyebrow">La preuve sociale</div>
@@ -427,7 +466,7 @@
     </div>
 
     <h3 style="font-size:17px;margin:24px 0 10px;">3. La page de destination</h3>
-    <p style="color:#55524d;font-size:14px;margin:0 0 14px;font-weight:300;">Le clic n'atterrit pas sur l'accueil, mais sur une page conçue pour une seule chose : obtenir une consultation. Je l'ai construite, à votre image.</p>
+    <p style="color:#55524d;font-size:14px;margin:0 0 14px;font-weight:400;">Le clic n'atterrit pas sur l'accueil, mais sur une page conçue pour une seule chose : obtenir une consultation. Je l'ai construite, à votre image.</p>
     <div class="dl" style="grid-template-columns:1fr;">
       <a href="./funnel-cuisine.html" target="_blank" rel="noopener">
         <div class="t">Voir la landing page du funnel &nbsp;&rarr;</div>
@@ -469,12 +508,12 @@
 
     <div class="block" style="margin:0 0 18px;background:var(--soft);">
       <h3>Ce n'est pas de la théorie</h3>
-      <p style="color:#4a4844;font-size:14px;font-weight:300;margin:0;">Chez Maple Syrup From Canada, j'ai fait exactement ça : trouver des acheteurs B2B avec <b style="color:var(--ink);font-weight:600;">Apollo</b> et <b style="color:var(--ink);font-weight:600;">LinkedIn</b>, participer à des foires et des missions commerciales à l'international, et représenter l'entreprise en personne. Le démarchage, la représentation et la négociation, je les ai déjà menés.</p>
+      <p style="color:#4a4844;font-size:14px;font-weight:400;margin:0;">Chez Maple Syrup From Canada, j'ai fait exactement ça : trouver des acheteurs B2B avec <b style="color:var(--ink);font-weight:600;">Apollo</b> et <b style="color:var(--ink);font-weight:600;">LinkedIn</b>, participer à des foires et des missions commerciales à l'international, et représenter l'entreprise en personne. Le démarchage, la représentation et la négociation, je les ai déjà menés.</p>
     </div>
 
     <div class="block" style="margin:0 0 18px;">
       <h3>Ce que vous faites déjà — votre base</h3>
-      <p style="color:#4a4844;font-size:14px;font-weight:300;margin:0;">Bouche-à-oreille, références de clients satisfaits, relations avec des architectes et des designers, le showroom, Houzz, les clients qui reviennent. Ça marche, et ça reste le cœur. On le garde, et on le systématise : programme de références et routine d'avis. Ensuite, on ajoute du neuf.</p>
+      <p style="color:#4a4844;font-size:14px;font-weight:400;margin:0;">Bouche-à-oreille, références de clients satisfaits, relations avec des architectes et des designers, le showroom, Houzz, les clients qui reviennent. Ça marche, et ça reste le cœur. On le garde, et on le systématise : programme de références et routine d'avis. Ensuite, on ajoute du neuf.</p>
     </div>
 
     <h3 style="font-size:17px;margin:22px 0 10px;">Les écosystèmes où dorment les projets</h3>
@@ -487,7 +526,7 @@
 
     <h3 style="font-size:17px;margin:26px 0 10px;">Le meilleur levier : les projets répétables (franchises)</h3>
     <div class="block" style="margin:0 0 14px;">
-      <p style="color:#4a4844;font-size:14px;font-weight:300;margin:0 0 8px;">Un client résidentiel, c'est un projet. Un franchisé qui aime son aménagement, c'est cinq, dix, vingt emplacements presque identiques. Le meilleur ratio effort / flux de projets qui existe.</p>
+      <p style="color:#4a4844;font-size:14px;font-weight:400;margin:0 0 8px;">Un client résidentiel, c'est un projet. Un franchisé qui aime son aménagement, c'est cinq, dix, vingt emplacements presque identiques. Le meilleur ratio effort / flux de projets qui existe.</p>
       <div class="row"><div class="k">Cibles</div><div class="v">Chaînes de restaurants et franchises (par exemple Pizza Salvatore), cliniques dentaires et médicales, spas et salons, boutiques de détail, concessions.</div></div>
       <div class="row"><div class="k">Décideur</div><div class="v">Le franchiseur (directeur du développement ou de la construction), le propriétaire multi-sites, le directeur des opérations.</div></div>
       <div class="row"><div class="k">L'offre</div><div class="v"><b>Un seul partenaire pour aménager chaque nouvel emplacement</b>, dans les délais, avec la même qualité partout.</div></div>
