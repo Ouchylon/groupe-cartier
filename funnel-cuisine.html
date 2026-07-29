@@ -5,43 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rénovation clé en main à Montréal — Groupe Cartier (exemple de page)</title>
 <meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#faf8f5;--panel:#fff;--ink:#1e1c19;--sub:#4a453d;--muted:#8a8378;--hair:#e7e2da;--accent:#8c7351;--accent2:#6f5a3f;--soft:#f2ede5;}
+  :root{--ink:#141414;--charcoal:#1f2124;--greige:#e5e2e1;--soft:#f3f2f0;--grey:#7d7d7d;--line:#dcd8d3;--panel:#fff;}
   *{box-sizing:border-box;}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",-apple-system,system-ui,Roboto,Arial,sans-serif;line-height:1.6;}
-  .demo{background:var(--accent2);color:#fff;text-align:center;font-size:12.5px;padding:8px 14px;}
+  body{margin:0;background:var(--panel);color:var(--ink);font-family:"Jost","Segoe UI",system-ui,Arial,sans-serif;line-height:1.6;font-weight:300;}
+  img{max-width:100%;display:block;}
+  .demo{background:var(--charcoal);color:#fff;text-align:center;font-size:12.5px;padding:8px 14px;font-weight:400;}
   .demo a{color:#fff;}
-  .wrap{max-width:1000px;margin:0 auto;padding:0 22px;}
-  .hero{background:linear-gradient(135deg,#fff 0%,var(--soft) 100%);border-bottom:1px solid var(--hair);}
-  .hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:center;padding:44px 0;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px;}
+  .hero{background:var(--greige);border-bottom:1px solid var(--line);}
+  .hero-in{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;padding:46px 0;}
   .brand{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
-  .brand .logo{width:38px;height:38px;border-radius:8px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;}
-  .brand .nm{font-weight:700;letter-spacing:.5px;}
-  h1{font-size:36px;line-height:1.14;margin:0 0 14px;font-weight:600;letter-spacing:-.5px;}
-  .hero p{font-size:16.5px;color:var(--sub);margin:0 0 18px;max-width:520px;}
-  .trust{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13.5px;color:var(--sub);margin-top:8px;}
-  .trust b{color:var(--ink);}
-  .heroimg{height:300px;border-radius:16px;background:linear-gradient(135deg,#e6ddcf,#cdbca3);display:flex;align-items:center;justify-content:center;color:#8a7a63;font-style:italic;font-size:13px;border:1px solid var(--hair);}
+  .brand .logo{width:36px;height:36px;border-radius:4px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;}
+  .brand .nm{font-weight:600;letter-spacing:2px;font-size:14px;}
+  h1{font-size:37px;line-height:1.12;margin:0 0 14px;font-weight:600;letter-spacing:-.5px;}
+  .hero p{font-size:16.5px;color:#4a4844;margin:0 0 18px;max-width:520px;font-weight:300;}
+  .trust{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13.5px;color:#4a4844;margin-top:8px;}
+  .trust b{color:var(--ink);font-weight:600;}
+  .heroimg{border-radius:6px;overflow:hidden;border:1px solid var(--line);}
+  .heroimg img{width:100%;height:320px;object-fit:cover;}
 
-  .form{background:var(--panel);border:1px solid var(--hair);border-radius:16px;padding:26px 26px;box-shadow:0 10px 30px rgba(90,70,45,.08);}
-  .form h2{font-size:20px;margin:0 0 4px;}
-  .form .sub{color:var(--muted);font-size:13px;margin:0 0 16px;}
-  label{display:block;font-size:12.5px;font-weight:600;color:var(--sub);margin:11px 0 4px;}
-  input,select,textarea{width:100%;padding:10px 12px;border:1px solid var(--hair);border-radius:9px;font-size:14px;font-family:inherit;background:#fff;color:var(--ink);}
-  textarea{min-height:70px;resize:vertical;}
-  .btn{margin-top:16px;width:100%;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:13px;font-size:15px;font-weight:700;cursor:pointer;}
-  .btn:hover{background:var(--accent2);}
-  .fine{font-size:11px;color:var(--muted);margin-top:10px;text-align:center;}
-  .ok{display:none;background:var(--soft);border:1px solid var(--accent);border-radius:10px;padding:16px;color:var(--ink);font-size:14px;margin-top:14px;}
+  .form{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:26px;box-shadow:0 12px 34px rgba(20,20,20,.09);}
+  .form h2{font-size:20px;margin:0 0 4px;font-weight:600;}
+  .form .sub{color:var(--grey);font-size:13px;margin:0 0 16px;}
+  label{display:block;font-size:12.5px;font-weight:600;color:#4a4844;margin:11px 0 4px;}
+  input,select,textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:4px;font-size:14px;font-family:inherit;background:#fff;color:var(--ink);}
+  textarea{min-height:68px;resize:vertical;}
+  .btn{margin-top:16px;width:100%;background:var(--ink);color:#fff;border:none;border-radius:4px;padding:13px;font-size:15px;font-weight:600;cursor:pointer;font-family:inherit;}
+  .btn:hover{background:var(--charcoal);}
+  .fine{font-size:11px;color:var(--grey);margin-top:10px;text-align:center;}
+  .ok{display:none;background:var(--soft);border:1px solid var(--ink);border-radius:6px;padding:16px;color:var(--ink);font-size:14px;margin-top:14px;}
 
-  section.band{padding:40px 0;border-bottom:1px solid var(--hair);}
+  section.band{padding:42px 0;border-bottom:1px solid var(--line);}
   .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;}
-  .step{background:var(--panel);border:1px solid var(--hair);border-radius:12px;padding:18px;}
-  .step .n{width:30px;height:30px;border-radius:50%;background:var(--soft);color:var(--accent2);font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:8px;}
-  .step h3{font-size:15px;margin:0 0 5px;}
-  .step p{font-size:13.5px;color:var(--sub);margin:0;}
-  footer{padding:28px 0 40px;color:var(--muted);font-size:12px;}
-  @media (max-width:760px){.hero-in{grid-template-columns:1fr;} h1{font-size:29px;} .heroimg{height:200px;}}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:18px;}
+  .step .n{width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;font-weight:600;display:flex;align-items:center;justify-content:center;margin-bottom:8px;}
+  .step h3{font-size:15px;margin:0 0 5px;font-weight:600;}
+  .step p{font-size:13.5px;color:#55524d;margin:0;}
+  footer{padding:28px 0 40px;color:var(--grey);font-size:12px;}
+  @media (max-width:760px){.hero-in{grid-template-columns:1fr;} h1{font-size:29px;} .heroimg img{height:220px;}}
 </style>
 </head>
 <body>
@@ -56,9 +61,10 @@
           <p>Design, cuisines sur mesure et chantier, sous un seul toit, depuis 1998. Un seul interlocuteur, de la première esquisse à la dernière poignée de porte.</p>
           <div class="trust">
             <span><b>Primés</b> aux Grands Prix du Design</span>
-            <span><b>Partenaire privilège</b> Miralis</span>
+            <span><b>Partenaire</b> Miralis</span>
             <span><b>28 ans</b> d'expérience</span>
           </div>
+          <div class="heroimg" style="margin-top:20px;"><img src="./assets/kitchen2.jpg" alt="Cuisine sur mesure Groupe Cartier"></div>
         </div>
         <div>
           <div class="form">
@@ -72,20 +78,9 @@
               <label>Téléphone</label>
               <input type="tel" placeholder="514 000-0000">
               <label>Type de projet</label>
-              <select>
-                <option>Cuisine</option>
-                <option>Salle de bain</option>
-                <option>Aire ouverte / rénovation majeure</option>
-                <option>Condo / maison complète</option>
-                <option>Projet commercial</option>
-              </select>
+              <select><option>Cuisine</option><option>Salle de bain</option><option>Aire ouverte / rénovation majeure</option><option>Condo / maison complète</option><option>Projet commercial</option></select>
               <label>Budget envisagé</label>
-              <select>
-                <option>À déterminer</option>
-                <option>50 000 $ – 150 000 $</option>
-                <option>150 000 $ – 350 000 $</option>
-                <option>350 000 $ et plus</option>
-              </select>
+              <select><option>À déterminer</option><option>50 000 $ – 150 000 $</option><option>150 000 $ – 350 000 $</option><option>350 000 $ et plus</option></select>
               <label>Votre projet en quelques mots</label>
               <textarea placeholder="Parlez-nous de votre espace et de vos envies..."></textarea>
               <button class="btn" type="submit">Réserver mon appel</button>
@@ -110,7 +105,7 @@
   </section>
 
   <footer>
-    <div class="wrap">Page de démonstration &middot; conçue par Ouchylon Suong à titre d'exemple, sans affiliation officielle avec Groupe Cartier. &middot; contact@ouchylon.com</div>
+    <div class="wrap">Page de démonstration conçue par Ouchylon Suong à titre d'exemple, sans affiliation officielle avec Groupe Cartier. &middot; contact@ouchylon.com</div>
   </footer>
 </body>
 </html>
